@@ -1,0 +1,62 @@
+
+/* Add Task component */
+.addTodo {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 30px;
+}
+.addTodo h2 {
+    text-align: center;
+}
+.addTodo input[type="text"],
+.addTodo textarea,
+.todoItem input[type="text"]
+ {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background: #fff;
+    border: 2px solid #dee;
+    font-size: 17px;
+    border-radius: 6px;
+    resize: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 10px;
+}
+.addTodo input[type="text"]:focus ,
+.addTodo textarea:focus,
+.todoItem input[type="text"]:focus
+{
+    border-color: #86b7fe;
+    color: #212529;
+    background: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+.addTodo label,
+.todoItem label
+ {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.addTodo button {
+    background: #198754;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.addTodo button:hover {
+    background-color: #1ea365;
+}

@@ -1,0 +1,50 @@
+.todoItem {
+    background-color: #2c3e50;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 7.5% 85% 7.5%;
+}
+
+.todoItem div.deleteButton {
+    height: 50px;
+}
+
+.todoItem > div h3 {
+    min-width: 100%;
+}
+.todoItem > div input {
+    transform: scale(1.5);
+}
+.todoItem p {
+    font-size: 17px;
+    word-wrap: break-word;
+}
+.todoItem button {
+    background: transparent;
+    font-size: 25px;
+    border: none;
+    color: #e74c3c;
+    cursor: pointer;
+}
+.todoItem .first_row input {
+    transform: scale(1.5);
+    background: #fff;
+}
+
+.doneTodo {
+    text-decoration: line-through;
+    color: #198754;
+}
+.todoItem #doneTodo {
+    width: 25px;
+    cursor: pointer;
+}
+.hideDeleteBtn {
+    display: none;
+}
+.showDeleteBtn {
+    display: block;
+}
