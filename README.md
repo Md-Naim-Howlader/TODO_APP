@@ -14,7 +14,7 @@ https://todo-app23.vercel.app/
 
 ## Installation
 
-Install my-project with npm
+Install my-project with yarn
 
 ```bash
   yarn Install
