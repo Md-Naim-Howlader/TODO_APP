@@ -6,12 +6,11 @@ https://todo-app23.vercel.app/
 
 ## Features
 
-- Create Todo
 - Add Todo
 - Edit Todo
 - Update Todo
 - Delete Todo
-- Store Todo LocalStorage
+- Store Todo for LocalStorage
 
 ## Installation
 
