@@ -19,6 +19,7 @@
 Install my-project with yarn
 
 ```bash
+  cd my project [Todo_App]
   yarn Install
   yarn dev
 ```
