@@ -12,7 +12,7 @@
 - Store Todo LocalStorage
 
 ## Live Link
-todo-app23.vercel.app/
+https://todo-app23.vercel.app/
 
 ## Installation
 
