@@ -1,16 +1,18 @@
-# React Todo App
+# Todo App using react.js
 
-### Live Link
 
-https://todo-app23.vercel.app/
 
 ## Features
 
+- Create Todo
 - Add Todo
 - Edit Todo
 - Update Todo
 - Delete Todo
-- Store Todo for LocalStorage
+- Store Todo LocalStorage
+
+## Live Link
+
 
 ## Installation
 
@@ -18,12 +20,14 @@ Install my-project with yarn
 
 ```bash
   yarn Install
-  cd [my-project]
   yarn dev
 ```
 
-## Authors
 
-- [@Md_Naim]
+## Got feedback for us?
 
-<p> Happy Coding 🚀 </p>
+We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+
+This challenge is completely free. Please share it with anyone who will find it useful for practice.
+
+Have fun building! 🚀

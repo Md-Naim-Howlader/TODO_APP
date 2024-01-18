@@ -5,24 +5,53 @@
     border-radius: 8px;
     color: #fff;
     display: grid;
-    grid-template-columns: 7.5% 85% 7.5%;
+    grid-template-columns: 70% 30%;
+    gap: 20px;
+    align-items: center;
 }
 
-.todoItem div.deleteButton {
-    height: 50px;
+.todoItem div.deleteAndEditButton {
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .todoItem > div h3 {
     min-width: 100%;
 }
-.todoItem > div input {
+.todoItem > div input[type="checkbox"] {
     transform: scale(1.5);
 }
+.todoItem input[type="text"], .todoItem textarea{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+    background: #fff;
+    border: 2px solid #dee;
+    border-radius: 6px;
+    resize: none;
+    margin-bottom: 10px;
+}
 .todoItem p {
-    font-size: 17px;
+    font-size: 16px;
+    margin-top: 5px;
     word-wrap: break-word;
 }
-.todoItem button {
+.todoItem button.edit {
+    border: none;
+    padding: 4px 5px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    background: #198754;
+}
+.todoItem button:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 .25rem #19875440;
+}
+.todoItem button.delete {
     background: transparent;
     font-size: 25px;
     border: none;

@@ -13,7 +13,7 @@ const AddTodo = () => {
   };
 
   const handlechange = (e) => {
-    const value = e.target.value.trim();
+    const value = e.target.value;
     const fieldName = e.target.name;
 
     setInputData({ ...inputData, [fieldName]: value });
