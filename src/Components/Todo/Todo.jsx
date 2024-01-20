@@ -66,9 +66,6 @@ const Todo = ({ todo }) => {
       ) : (
         <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
           <div>
-            <input type="checkbox" name="" id="" />
-          </div>
-          <div>
             <h3>{title}</h3>
             <p>{description}</p>
           </div>

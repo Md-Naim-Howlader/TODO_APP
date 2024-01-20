@@ -1,4 +1,4 @@
-import AddTodo from "../Components/AddTask/AddTodo";
+import AddTodo from "../Components/AddTodo/AddTodo";
 import TodoList from "../Components/Todo_List/TodoList";
 
 const Home = () => {
