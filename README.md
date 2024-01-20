@@ -12,13 +12,14 @@
 - Store Todo LocalStorage
 
 ## Live Link
-
+https://todo-app23.vercel.app/
 
 ## Installation
 
 Install my-project with yarn
 
 ```bash
+  cd my project [Todo_App]
   yarn Install
   yarn dev
 ```
@@ -26,8 +27,8 @@ Install my-project with yarn
 
 ## Got feedback for us?
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+I love receiving feedback! I always looking to improve my challenges and my platform. So if you have anything you'd like to mention
 
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
-Have fun building! 🚀
+Happy Coding! 🚀
